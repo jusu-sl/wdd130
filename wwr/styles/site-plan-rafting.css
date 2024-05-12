@@ -8,18 +8,19 @@ body {
   }
   
 :root {
-    --primary-color: navy;
+    --primary-color: darkblue;
     --secondary-color:black;
     --accent1-color: gold;
-    --accent2-color: maroon;
+    --accent2-color: gold;
   
     --heading-font: '______', serif;
     --paragraph-font: '______', serif;
   
-    --nav-background-color: gold;
-    --nav-link-color:darkblue;
-    --nav-hover-link-color:gainsboro;
-    --nav-hover-background-color: gold;
+    --nav-background-color: aliceblue;
+    --nav-link-color:blueviolet;
+    --nav-hover-link-color:blueviolet;
+
+    --nav-hover-background-color: aliceblue;
   }
 
   body {
