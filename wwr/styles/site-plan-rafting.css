@@ -1,5 +1,5 @@
 
-@import url('https://fonts.cdnfonts.com/css/times-new-roman');
+@import url('https://fonts.google.com/specimen/Roboto');
 
 body {
     font-family: var(--paragraph-font);
@@ -8,19 +8,19 @@ body {
   }
   
 :root {
-    --primary-color: darkblue;
-    --secondary-color:black;
-    --accent1-color:gold;
-    --accent2-color: gold;
+    --primary-color: #4BA3C3;
+    --secondary-color: #175676;
+    --accent1-color: #CCE6F4;
+    --accent2-color: #CCE6F4;
   
     --heading-font: sans-serif;
     --paragraph-font: serif;
   
-    --nav-background-color: aliceblue;
-    --nav-link-color:blueviolet;
-    --nav-hover-link-color:blueviolet;
+    --nav-background-color: #CCE6F4;
+    --nav-link-color: #BA324F;
+    --nav-hover-link-color: #BA324F;
 
-    --nav-hover-background-color: aliceblue;
+    --nav-hover-background-color:#CCE6F4;
   }
   
   body {
