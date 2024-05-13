@@ -10,11 +10,11 @@ body {
 :root {
     --primary-color: darkblue;
     --secondary-color:black;
-    --accent1-color: gold;
+    --accent1-color:gold;
     --accent2-color: gold;
   
-    --heading-font: '______', serif;
-    --paragraph-font: '______', serif;
+    --heading-font: sans-serif;
+    --paragraph-font: serif;
   
     --nav-background-color: aliceblue;
     --nav-link-color:blueviolet;
@@ -22,7 +22,7 @@ body {
 
     --nav-hover-background-color: aliceblue;
   }
-
+  
   body {
     font-family: var(--paragraph-font);
     max-width: 960px;
