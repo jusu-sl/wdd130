@@ -47,13 +47,13 @@ main {
 }
 
 aside {
-  position: relative;
   width: 20rem;
   margin: 1rem;
   border: 1px solid rgba(159, 148, 148, 0.2);
   padding: 1rem;
   background-color: #eee;
   text-align: center;
+  position: relative;
 }
 
 aside img {
