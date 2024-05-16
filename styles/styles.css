@@ -7,7 +7,7 @@
 
 /* Class Selectors */
 
-.box {
+ .box {
   margin: 1rem;
   border: 1px solid rgba(0,0,0,.1);
   padding: 1rem;
@@ -47,6 +47,7 @@ main {
 }
 
 aside {
+  position: relative;
   width: 20rem;
   margin: 1rem;
   border: 1px solid rgba(159, 148, 148, 0.2);
