@@ -1,81 +1,112 @@
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  /* Import the font(s) selected in the site plan documentation */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Define color variables */
+:root {
+    --primary-color: #3498db; 
+    --secondary-color: #2ecc71; 
+    --text-color: #333; 
+    --background-color: #f9f9f9; 
+}
 
 body {
-    font-family: var(--paragrah-font);
-    max-width: 960px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 20px;
-}
-  
-/* Define CSS variables */
-:root {
-  --paragraph-font: 'Roboto', sans-serif;
-  --heading-font: 'Radio Canada Big', serif;
-  --primary-color:steelblue;
-  --secondary-color: #568259;
-  --text-color: rgb(21, 5, 5);
-  --background-color: #CCFCCB;
-  --opacity-value: 1;
+    background-color: var(--primary-color);
 }
 
-/* Style headings and paragraph elements */
-h1, h2, p {
-  font-family: var(--heading-font);
-  font-weight: 400;
-  font-style: normal;
-  font-size: medium;
-  line-height: 1.5;
-  letter-spacing: normal;
-  padding: 20px;
-  color: var(--text-color);
+header img {
+    height: 50px;
 }
 
-/* Remove underlines from social media links */
-.sociallinks a {
-  text-decoration: none;
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
-/* Style the background and opacity of the article element */
-article {
-  background-color: var(--background-color);
-  opacity: var(--opacity-value);
+nav a:hover {
+    text-decoration: underline;
 }
 
-/* Positioning and styling of hero div and its content */
 .hero {
-  text-align: center;
-  position: relative;
+    position: relative;
+    text-align: center;
+    top: auto;
+    color: white;
 }
 
 .hero img {
-  display: block;
-  width: 120%;
-  height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .hero h1 {
-  position: absolute;
-  top: -20px; /* Replace with actual value */
-  left: 395px; /* Replace with actual value */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
 }
 
-/* Positioning of article element */
 article {
-  position: absolute;
-  top: 755px; 
-  left: 47px; 
+    
+    padding: 20px;
 }
 
-/* Float image inside the article to the right of paragraph elements */
 article img {
-  float: right;
-  margin-left: 125px/*YourMarginValue; /* Replace with actual value */
+    float: right;
+    margin: 0 0 10px 10px;
+    
+}
+
+#history, #adventure {
+    margin-bottom: 40px;
+}
+
+#history h2, #adventure h2 {
+    color: var(--secondary-color);
+}
+
+#adventure img {
+    width: 30%;
+    height: auto;
+    margin: 5px;
+  
 }
 
 footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
+    clear: both;
     text-align: left;
-    top: -90px;
-    left: 3px;
-  }
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer .sociallinks a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .sociallinks img {
+    width: 30px;
+    height: 30px;
+}
