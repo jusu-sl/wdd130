@@ -63,10 +63,12 @@ aside img {
 
 aside h2 {
   position: absolute;
-  top: -6px;
-  left: 111px;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
   background-color:ghostwhite ;
   color:darkgreen;
+  padding: 0 5px;
 }
 
 main img {
