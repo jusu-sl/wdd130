@@ -1,4 +1,4 @@
-  /* Import the font(s) selected in the site plan documentation */
+ /* Import the font(s) selected in the site plan documentation */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* Define color variables */
@@ -42,7 +42,6 @@ nav a:hover {
 .hero {
     position: relative;
     text-align: center;
-    top: auto;
     color: white;
 }
 
@@ -63,19 +62,20 @@ nav a:hover {
     border-radius: 10px;
 }
 
-article {
-    
+section {
     padding: 20px;
 }
 
-article img {
+section img {
     float: right;
     margin: 0 0 10px 10px;
-    
+}
+ #history, #adventure {
+    margin-bottom: 40px;
 }
 
-#history, #adventure {
-    margin-bottom: 40px;
+#history, #adventure{
+    color: black;
 }
 
 #history h2, #adventure h2 {
@@ -86,12 +86,11 @@ article img {
     width: 30%;
     height: auto;
     margin: 5px;
-  
 }
 
 footer {
     clear: both;
-    text-align: left;
+    text-align: center;
     padding: 20px;
     background-color: var(--primary-color);
     color: white;
