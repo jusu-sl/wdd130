@@ -1,4 +1,4 @@
- /* Import the font(s) selected in the site plan documentation */
+/* Import the font(s) selected in the site plan documentation */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* Define color variables */
@@ -18,9 +18,9 @@ body {
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    justify-content: space-between;
     padding: 20px;
     background-color: var(--primary-color);
 }
@@ -29,10 +29,17 @@ header img {
     height: 50px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+    padding: 10px;
 }
 
 nav a:hover {
@@ -70,11 +77,12 @@ section img {
     float: right;
     margin: 0 0 10px 10px;
 }
- #history, #adventure {
+
+#history, #adventure {
     margin-bottom: 40px;
 }
 
-#history, #adventure{
+#history, #adventure {
     color: black;
 }
 
@@ -82,30 +90,46 @@ section img {
     color: var(--secondary-color);
 }
 
-#adventure img {
+#adventure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#adventure figure {
     width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+#adventure img {
+    width: 100%;
     height: auto;
-    margin: 5px;
 }
 
 footer {
-    clear: both;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     background-color: var(--primary-color);
     color: white;
 }
 
 footer p {
-    margin: 10px 0;
+    margin: 0;
+}
+
+footer .sociallinks {
+    display: flex;
 }
 
 footer .sociallinks a {
-    margin: 0 10px;
-    text-decoration: none;
+    margin-left: 10px;
 }
 
 footer .sociallinks img {
     width: 30px;
     height: 30px;
 }
+
