@@ -1,33 +1,46 @@
-      
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 /* Class Selectors */
 
- .box {
+.box {
   margin: 1rem;
   border: 1px solid rgba(0,0,0,.1);
   padding: 1rem;
-  background-color:gainsboro;
+  background-color: gainsboro;
   color: #000;
+}
+
+header, footer, .grid {
+  max-width: 840px;
+  margin: 0 auto;
 }
 
 nav {
   background-color: steelblue;
   padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 nav a {
-    color: white;
-    padding: 10px;
-    display: block;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
 }
 
 h1 {
   color: steelblue;
+  border-bottom: 1px solid #000;
 }
 
 img {
@@ -38,27 +51,26 @@ img {
   box-shadow: 0 0 30px gray;
 }
 
-p {
-  padding: 10px;
-}
-
-main {
-  max-width: 840px;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  align-items: center;
 }
 
 aside {
   width: 20rem;
-  margin: 1rem;
+  position: relative;
+  grid-row: 1;
   border: 1px solid rgba(159, 148, 148, 0.2);
   padding: 1rem;
   background-color: #eee;
   text-align: center;
-  position: relative;
 }
 
 aside img {
-  width: 200px;
-  height: auto;
+  width: 230px;
+  height: 300px;
 }
 
 aside h2 {
@@ -66,18 +78,25 @@ aside h2 {
   top: 10px;
   left: 50%;
   transform: translateX(-50%);
-  background-color:skyblue ;
-  color:darkgreen;
+  background-color: skyblue;
+  color: darkgreen;
   padding: 0 5px;
 }
 
+main {
+  display: block;
+  grid-column: 2;
+
+}
 main img {
   width: 160px;
   height: auto;
   float: right;  
 }
 
-p { padding: 0;}
+p {
+  padding: 0;
+}
 
 footer {
   margin-top: 15px;
