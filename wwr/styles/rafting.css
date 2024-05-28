@@ -4,7 +4,7 @@
 /* Define color variables */
 :root {
     --primary-color: #3498db; 
-    --secondary-color: #2ecc71; 
+    --secondary-color: darkslategrey; 
     --text-color: #333; 
     --background-color: #f9f9f9; 
 }
