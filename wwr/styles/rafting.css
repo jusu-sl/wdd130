@@ -3,12 +3,12 @@
 
 /* Define color variables */
 :root {
-    --primary-color: #3498db; 
+    --primary-color: blueviolet; 
     --secondary-color: darkslategrey; 
     --text-color: #333; 
     --background-color: #f9f9f9; 
-    --link-color: #ffffff;
-    --link-hover-color: #d1e7f8;
+    --link-color: aliceblue;
+    --link-hover-color: Gold;
 }
 
 body {
