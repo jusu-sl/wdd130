@@ -136,6 +136,17 @@ footer .sociallinks img {
     height: 30px;
 }
 
+footer .wireframe-link a {
+    color: var(--link-color);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+footer .wireframe-link a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
 /* Contact Us Page Styles */
 .company-info iframe {
     width: 100%;
