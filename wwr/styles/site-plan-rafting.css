@@ -9,19 +9,19 @@ body {
   }
   
 :root {
-    --primary-color: #4BA3C3;
-    --secondary-color: #175676;
+    --primary-color: navy;
+    --secondary-color: gold;
     --accent1-color: #CCE6F4;
     --accent2-color: #CCE6F4;
   
     --heading-font: sans-serif;
     --paragraph-font: serif;
   
-    --nav-background-color: #CCE6F4;
-    --nav-link-color: #BA324F;
-    --nav-hover-link-color: #BA324F;
+    --nav-background-color: aliceblue;
+    --nav-link-color: darkslategray;
+    --nav-hover-link-color: darkslategray;
 
-    --nav-hover-background-color:#CCE6F4;
+    --nav-hover-background-color: aliceblue;
   }
   
   body {
