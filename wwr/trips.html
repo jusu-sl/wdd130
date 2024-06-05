@@ -3,87 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>White water Rafting - Contact Us</title>
-    <meta name="description" content="A user friendly webpage containing information about our trips.">  
+    <title>White Water Rafting - Trips</title>
+    <meta name="description" content="Explore our exciting white water rafting trips and plan your adventure with us.">
     <meta name="author" content="Lansana Jusu">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
     <header>
         <!-- Website logo -->
-        <img src="images/downriver.png" alt="White water Rafting Logo">
+        <img src="images/downriver.png" alt="White Water Rafting Logo">
         <!-- Navigation -->
         <nav>
            <a href="index.html">Home</a>
            <a href="about.html">About Us</a>
-           <a href="trips.html">Trips</a>
-           <a class="current" href="trips.html">Our Trips</a>
+           <a class="current" href="trips.html">Trips</a>
+           <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
     <main>
-        <h1>Contact Us</h1>
-        <section class="company-info">
-            <h2>Company Information</h2>
-            <p>Address: 2 Hangha Road, Kenema, Sierra Leone.</p>
-            <p>Phone: +232 78868283/ +232 31445103</p>
-            <p>Email: infosle@rafting.org</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.586353453722!2d144.95373631584396!3d-37.81720944255495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f5b5b5%3A0xf2448a5c7d5e5c5b!2sRafting%20Company!5e0!3m2!1sen!2sus!4v1620069672004!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
-        </section>
-        
-
-        <section class="employee-profiles">
-            <h2>Our Team</h2>
-            <div class="employee">
-                <img src="images/employee1.jpg" alt="Lansana Jusu">
-                <p>Lansana Jusu - Chairman</p>
-            </div>
-            <div class="employee">
-                <img src="images/employee2.jpg" alt="Amirah Pranka">
-                <p>Amirah Pranka - Human Resource Manager</p>
-            </div>
-            <div class="employee">
-                <img src="images/employee3.jpg" alt="Samuel Tanika">
-                <p>Samuel Tanika - Director of Marketing and Innovation.</p>
-            </div>
-            <div class="employee">
-                <img src="images/employee4.jpg" alt="Nancy Montesorri">
-                <p>Nancy Montesorri - Public Relation Officer.</p>
-            </div>
+        <!-- Content for Trips page will be added here -->
+        <h1>Our Thrilling Rafting Trips</h1>
+        <!-- Call to action to contact the company -->
+        <section class="cta">
+            <p>Ready for an adventure?</p>
+            <p>Book your trip now!</p>
+            <a href="contact.html" class="button">Contact Us</a>
         </section>
 
-        <section class="Contact Form">
-            <h2>Contact Form</h2>
-            <form action="#" method="post">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <p>Purpose of Message:</p>
-                    <input type="radio" id="general" name="purpose" value="General Inquiry">
-                    <label for="general">General Inquiry</label><br>
-                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-                    <label for="reservation">Reservation Question</label><br>
-                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                    <label for="suggestion">Website Suggestion</label>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
-                </div>
-                <div class="form-group">
-                    <input type="checkbox" id="subscribe" name="subscribe">
-                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                </div>
-                <button type="submit">Submit Message</button>
-            </form>
+        <!-- Detailed trip descriptions with photos -->
+        <section class="trip">
+            <img src="images/trip1.jpg" alt="Trip 1">
+            <h2>Trip 1: Wild Rapids Expedition</h2>
+            <p>Join us for a heart-pounding adventure through the wildest rapids in the region. Navigate thrilling drops and conquer the untamed waters!</p>
+        </section>
+
+        <section class="trip">
+            <img src="images/trip2.jpg" alt="Trip 2">
+            <h2>Trip 2: Scenic River Retreat</h2>
+            <p>Experience the beauty of nature as you float down the scenic river. Perfect for nature lovers and those seeking a peaceful retreat.</p>
+        </section>
+
+        <section class="trip">
+            <img src="images/trip3.jpeg" alt="Trip 3">
+            <h2>Trip 3: Extreme Whitewater Challenge</h2>
+            <p>Test your skills and bravery with our extreme whitewater challenge. Conquer the most intense rapids and earn bragging rights!</p>
+        </section>
+
+        <!-- Table outlining available trips -->
+        <section class="trip-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>Duration</th>
+                        <th>Difficulty</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Wild Rapids Expedition</td>
+                        <td>2 days</td>
+                        <td>Difficult</td>
+                        <td>$300</td>
+                    </tr>
+                    <tr>
+                        <td>Scenic River Retreat</td>
+                        <td>1 day</td>
+                        <td>Easy</td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <td>Extreme Whitewater Challenge</td>
+                        <td>3 days</td>
+                        <td>Extreme</td>
+                        <td>$500</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
+
+    </main>
+
     <footer>
         <p>©2024 🌴 White Water Rafting 🌴 Lansana Jusu.</p>
         <nav class="sociallinks">
@@ -97,6 +100,9 @@
                 <img src="images/instagram.svg" alt="Instagram">
             </a>
         </nav>
+        <div class="wireframe-link">
+            <a href="images/trips_wireframe.jpg">Wireframe</a>
+        </div>
     </footer>
 </body>
 </html>
